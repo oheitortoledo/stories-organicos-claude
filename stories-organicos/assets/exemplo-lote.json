@@ -1,0 +1,37 @@
+{
+  "_sobre": "Exemplo FICTÍCIO: 6 stories de uma especialista em confeitaria. Troque as fotos (dentro de ~/Movies), os textos e o prefixo.",
+  "pasta_fotos": "~/Movies/stories-confeitaria",
+  "saida": "~/Movies/stories-confeitaria/prontos",
+  "prefixo": "CONF_STORY_",
+  "fotos": {
+    "01": {"arquivo": "01-sorrindo-cozinha.jpg", "topo": 0.40, "fundo_do_texto": "claro (dólmã branco)"},
+    "02": {"arquivo": "02-camiseta-preta.jpg", "topo": 0.42, "fundo_do_texto": "escuro (camiseta preta)"},
+    "03": {"arquivo": "03-confeitando.jpg", "topo": 0.40, "fundo_do_texto": "misto"}
+  },
+  "stories": {
+    "001": {"foto": "01", "blocos": [
+      {"texto": "você faz bolo pra\nfamília e todo mundo\npede mais? 🎂", "fonte": "CLASSIC_H", "tam": 26, "cor": "preto", "caixa": "amarelo"},
+      {"texto": "meu curso de confeitaria\nabriu turma nova", "fonte": "CLASSIC", "tam": 21, "cor": "branco", "caixa": "preto"}],
+      "cta": {"texto": "toca em Saiba mais 👇", "fonte": "CLASSIC", "tam": 19, "cor": "preto", "caixa": "branco"}},
+    "002": {"foto": "02", "blocos": [
+      {"tipo": "pergunta", "convite": "Me faça uma pergunta", "pergunta": "serve pra quem\nnunca fez bolo?", "faixa": "grafite", "tam": 20},
+      {"texto": "serve. o curso começa do zero:\ndo primeiro bolo de caneca\naté o bolo de festa", "fonte": "CLASSIC", "tam": 19, "cor": "preto", "caixa": "branco"}],
+      "cta": {"texto": "toca em Saiba mais 👇", "fonte": "CLASSIC", "tam": 18, "cor": "branco", "caixa": "azul"}},
+    "003": {"foto": "03", "blocos": [
+      {"texto": "bolo de pote 🍰\nbrigadeiro gourmet 🍫\nbolo de festa 🎂\ntorta de limão 🍋", "fonte": "MODERN", "tam": 25, "cor": "branco", "caixa": "verde", "alinhar": "left"},
+      {"texto": "e isso é só o começo do curso", "fonte": "CLASSIC", "tam": 20, "cor": "branco", "caixa": "preto"}],
+      "cta": {"texto": "toca em Saiba mais e vê tudo 👇", "fonte": "CLASSIC", "tam": 18, "cor": "preto", "caixa": "branco"}},
+    "004": {"foto": "01", "blocos": [
+      {"texto": "MEDO DE COMPRAR\nE NÃO USAR?", "fonte": "SQUEEZE", "tam": 30, "cor": "branco", "caixa": "roxo"},
+      {"texto": "entra, assiste tudo\ne testa por 7 dias.\nnão gostou, eu devolvo 100%", "fonte": "EDITOR", "tam": 17, "cor": "preto", "caixa": "branco"}],
+      "cta": {"texto": "toca em Saiba mais 👇", "fonte": "EDITOR", "tam": 17, "cor": "branco", "caixa": "preto"}},
+    "005": {"foto": "02", "blocos": [
+      {"texto": "mais de 3 mil alunos\njá confeitam comigo 🥹", "fonte": "SIGNATURE", "tam": 26, "cor": "branco", "caixa": "laranja", "lh": 0.062},
+      {"texto": "a turma nova tá aberta", "fonte": "CLASSIC", "tam": 21, "cor": "branco", "estilo": "outline", "caixa": "preto"}],
+      "cta": {"texto": "toca em Saiba mais 👇", "fonte": "CLASSIC", "tam": 18, "cor": "preto", "caixa": "branco"}},
+    "006": {"foto": "03", "blocos": [
+      {"texto": "o Natal esse ano\né por sua conta? 🎄", "fonte": "POSTER", "tam": 26, "cor": "branco", "caixa": "vermelho", "rot": -2},
+      {"texto": "as receitas de festa tão no curso.\ndá tempo de aprender antes do Natal", "fonte": "MODERN", "tam": 20, "cor": "branco", "caixa": "verde"}],
+      "cta": {"texto": "toca em Saiba mais 👇", "fonte": "CLASSIC", "tam": 18, "cor": "preto", "caixa": "branco"}}
+  }
+}
